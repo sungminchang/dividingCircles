@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="style.css"></script>
+   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+  <script src="bower_components/underscore/underscore-min.js"></script>
+  <script src="bower_components/backbone/backbone.js"></script>
+  <script src="bower_components/handlebars/handlebars.min.js"></script>
+
+
+  <script src="CircleModel.js"></script>
+  <script src="CircleView.js"></script>
+
+
+  <script id="circle-view" type="text/x-handlebars-template">
+    <svg height="{{height}}" width="{{width}}">
+      <circle cx="{{cx}}" cy="{{cy}}" r="{{r}}" stroke="black" stroke-width="3" fill="{{fill}}" />
+    </svg>
+  </script>
+  
+  <script id="circle-entry-view" type="text/x-handlebars-template">
+      <circle cx="{{cx}}" cy="{{cy}}" r="{{r}}" stroke="black" stroke-width="3" fill="{{fill}}" />
+  </script>
+
+
+
+  
+</head>
+<body>
+
+  <script src="main.js">  </script>
+</body>
+</html>
